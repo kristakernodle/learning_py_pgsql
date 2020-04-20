@@ -62,16 +62,13 @@
       <module name="movie-system" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="/anaconda3/envs/py_pgsql/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../learning_py_pgsql/movie-system" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../learning_py_pgsql/movie-system/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +90,7 @@
       <updated>1587323331902</updated>
       <workItem from="1587323501392" duration="4258000" />
       <workItem from="1587416950921" duration="1237000" />
-      <workItem from="1587418300577" duration="96000" />
+      <workItem from="1587418300577" duration="868000" />
     </task>
     <servers />
   </component>
@@ -101,10 +98,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="504" y="101" width="1071" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587324621741">
+    <state x="504" y="101" width="1071" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587419026969">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="504" y="101" width="1071" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587324621741" />
+    <state x="504" y="101" width="1071" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587419026969" />
     <state x="777" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587324540145">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

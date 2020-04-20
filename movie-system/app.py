@@ -1,16 +1,15 @@
 from user import User
+import json
+import os
+print(os.getcwd())
 
-# user = User("Krista")
-#
-# user.add_movie("Zootopia", "Animation")
-# user.add_movie("Dolittle", "Adventure/Family")
-#
-# user.save_to_file()
+user = User("Krista")
 
-user = User.load_from_file("Krista.txt")
+user.add_movie("Zootopia", "Animation", watched=True)
+user.add_movie("Dolittle", "Adventure/Family")
 
-print(user.name)
-print(user.movies)
+with open('Krista.txt', 'w') as f:
+    json.dump(user.json(),f)
 
 
 
