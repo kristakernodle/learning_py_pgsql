@@ -14,8 +14,7 @@ with open('Krista.txt', 'r') as f:
     json_data = json.load(f)
     user = User.from_json(json_data)
 
-print(user.name)
-print(user.movies)
+print(user.json())
 
 
 

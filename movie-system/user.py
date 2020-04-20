@@ -30,5 +30,5 @@ class User:
     @classmethod
     def from_json(cls, json_data):
         user = User(json_data['name'])
-        user.movies = [Movie.from_json(movie) for movie in json_data['movies']]
+        user.movies = [Movie.from_json(movie_data) for movie_data in json_data['movies']]
         return user
