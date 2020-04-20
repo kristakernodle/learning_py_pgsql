@@ -90,7 +90,7 @@
       <updated>1587323331902</updated>
       <workItem from="1587323501392" duration="4258000" />
       <workItem from="1587416950921" duration="1237000" />
-      <workItem from="1587418300577" duration="1988000" />
+      <workItem from="1587418300577" duration="7393000" />
     </task>
     <servers />
   </component>
@@ -106,6 +106,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="777" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587324540145" />
+    <state x="114" y="116" width="1255" height="617" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587423385824">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="114" y="116" width="1255" height="617" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587423385824" />
     <state x="525" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1587416951153">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
