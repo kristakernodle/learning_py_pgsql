@@ -9,15 +9,15 @@ class User:
     def __repr__(self):
         return "<User {}>".format(self.name)
 
-    def add_movie(self, name, genre, watched=False):
-        movie = Movie(name, genre, watched)
+    def add_movie(self, name, genre):
+        movie = Movie(name, genre, False)
         self.movies.append(movie)
 
     def delete_movie(self, name):
         self.movies = list(filter(lambda movie: movie.title != name, self.movies))
 
     def watched_movies(self):
-        return list(filter(lambda movie: movie.watched, self.movies))
+        return list(filter(lambda movie: movie.watched is True, self.movies))
 
     def json(self):
         return {

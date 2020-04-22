@@ -1,1 +1,1 @@
-{"name": "Krista", "movies": [{"name": "Zootopia", "genre": "Animation", "watched": true}, {"name": "Dolittle", "genre": "Adventure/Family", "watched": false}]}
+{"name": "Krista", "movies": [{"name": "Dolittle", "genre": "Adventure/Family", "watched": true}, {"name": "purple drank", "genre": "fantasy", "watched": true}, {"name": "pink drink", "genre": "fantasy", "watched": false}]}

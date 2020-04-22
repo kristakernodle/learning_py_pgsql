@@ -28,33 +28,24 @@ def menu():
     while selection != "quit":
         if selection == "options":
             print(*commands, sep="\n")
-
         elif selection == "list":
             print(*[f"{movie.name}" for movie in user.movies], sep="\n")
-
         elif selection == "watched":
-            print(*[movie.name for movie in user.watched_movies()], sep="\n")
-        else:
-
+            for movie in user.watched_movies():
+                print(movie.name)
+        elif selection == "new":
             movie_name = input("Enter the movie name: ")
-
-            if selection == "new":
-                movie_genre = input("Enter the movie genre: ")
-                movie_watched = input("Has this movie been watched? Y/[N]: ")
-                if movie_watched == 'y':
-                    watched=True
-                else:
-                    watched = False
-                user.add_movie(movie_name, movie_genre, watched=watched)
-
+            movie_genre = input("Enter the movie genre: ")
+            user.add_movie(movie_name, movie_genre)
+        elif selection == "delete":
+            movie_name = input("Enter the movie name: ")
+            user.movies = [movie for movie in user.movies if movie.name != movie_name]
+        elif selection == "update":
+            movie_name = input("Enter the movie name: ")
             for movie in user.movies:
                 if movie.name == movie_name:
-                    if selection == "delete":
-                        user.movies = [movie for movie in user.movies if movie.name != movie_name]
-                        break
                     movie.watched = True
                     break
-
         selection = input("Please enter command: ").lower()
         selection.strip()
 

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc59e28-52ec-494a-b912-4efa44f1fe63" name="Default Changelist" comment="" />
+    <list default="true" id="ddc59e28-52ec-494a-b912-4efa44f1fe63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Krista.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Krista.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,25 +21,35 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="from_vid_56" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1alw8pndla1b7PHMQCOxDAcqTuU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../learning_py_pgsql" />
+      <recent name="$PROJECT_DIR$/.." />
     </key>
   </component>
   <component name="RunManager">
@@ -62,13 +79,13 @@
       <module name="movie-system" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/anaconda3/envs/py_pgsql/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../learning_py_pgsql/movie-system" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../learning_py_pgsql/movie-system/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,22 +107,28 @@
       <updated>1587323331902</updated>
       <workItem from="1587323501392" duration="4258000" />
       <workItem from="1587416950921" duration="1237000" />
-      <workItem from="1587418300577" duration="7393000" />
+      <workItem from="1587418300577" duration="8312000" />
+      <workItem from="1587511745173" duration="1924000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="504" y="101" width="1071" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587419026969">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="504" y="80" width="1071" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587512574009">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="504" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587512574009" />
     <state x="504" y="101" width="1071" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587419026969" />
     <state x="777" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587324540145">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="777" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587324540145" />
+    <state x="109" y="262" key="SettingsEditor" timestamp="1587512459411">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="109" y="262" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1587512459411" />
     <state x="114" y="116" width="1255" height="617" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587423385824">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
